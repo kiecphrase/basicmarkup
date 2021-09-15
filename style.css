@@ -1,0 +1,121 @@
+/* DIVS */
+.main-contain {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+}
+
+.nav-bar{
+    background-color: rgba(0, 255, 255, 0.537);
+    height: 2.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.holder{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    height: 90%;
+    width: 100;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item-1{
+    display: flex;
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: space-around;
+}
+.item-2{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    justify-content: start;
+}
+
+/* BUTTON */
+.btn{
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    background-color: transparent;
+    color: black;
+    font-size: 1.2rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: red;
+    text-decoration-line: underline;
+    text-emphasis-style: solid;
+    background-color: transparent;
+}
+
+.show {
+    display: inline;
+}
+
+.hide {
+    display: none;
+}
+
+/* TEXT */
+
+/* 
+
+font-family: 'Josefin Sans', sans-serif; - (regular & Semi-Bold)
+font-family: 'Josefin Slab', serif;
+
+*/
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Josefin Slab', serif;
+}
+
+h5 {
+    font-family: 'Josefin Slab', serif;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+}
+
+a {
+    font-family: 'Josefin Slab', serif;
+}
+
+
+/* GENERAL */
+
+body {
+    align-items: center;
+    background-color: rgba(255, 178, 169, 0.301);
+}
+
+button {
+    margin-left: 0.5rem;
+}
