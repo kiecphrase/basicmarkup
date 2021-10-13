@@ -1,0 +1,22 @@
+{
+  "name": "basicmarkup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiecphrase/basicmarkup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiecphrase/basicmarkup/issues"
+  },
+  "homepage": "https://github.com/kiecphrase/basicmarkup#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
